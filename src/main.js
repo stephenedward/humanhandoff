@@ -27,7 +27,7 @@ $(function () {
   var lastTypingTime;
   var $currentInput = $usernameInput.focus();
 
-  var socket = io('http://localhost:8000/');
+  var socket = io('https://dialogflowcustomer.herokuapp.com:8000/');
 
   function addParticipantsMessage(data) {
     var message = '';
