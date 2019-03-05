@@ -1,0 +1,26 @@
+{
+	"name": "socketio-chat",
+	"version": "0.1.0",
+	"description": "A node js chat app",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"dependencies": {
+		"dialogflow": "^0.8.0",
+		"express": "^4.12.4",
+		"fs": "0.0.1-security",
+		"nodemon": "^1.18.10",
+		"pump": "^3.0.0",
+		"socket.io": "*",
+		"structjson": "^1.0.1",
+		"through2": "^3.0.0",
+		"uuid": "^3.3.2",
+		"yargs": "^13.2.1"
+	},
+	"keywords": [
+		"node",
+		"express",
+		"chat"
+	],
+	"license": "MIT"
+}
