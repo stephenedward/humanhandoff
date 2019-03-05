@@ -13,7 +13,7 @@
   "scripts": {
     "client": "react-scripts start",
     "server": "node src/Server.js",
-    "start": "concurrently - kill-others \"npm run client\" \"npm run server\"",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
