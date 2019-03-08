@@ -11,7 +11,9 @@
     "express": "^4.12.4"
   },
   "scripts": {
-    "start":"react-scripts start",
+    "client": "react-scripts start",
+    "server": "node src/Server.js",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
