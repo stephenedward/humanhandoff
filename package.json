@@ -11,7 +11,7 @@
     "express": "^4.12.4"
   },
   "scripts": {
-    "start":"node src/Server.js",
+    "start":"react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
