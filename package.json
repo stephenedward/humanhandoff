@@ -1,19 +1,21 @@
 {
-  "name": "websockets-socket.io",
-  "version": "1.0.0",
-  "engines": {
-    "node": "6.2.0"
-  },
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "Bot",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "4.13.4",
-    "socket.io": "1.4.6"
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5",
+    "socket.io": "^2.0.1",
+    "jquery": "^3.3.1",
+    "express": "^4.12.4"
+  },
+  "scripts": {
+    "start":"node src/Server.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
   }
 }
